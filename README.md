@@ -2,27 +2,13 @@
 
 ### Dependency Mismatches 
 
-- nothing provides libcublas >=12.1.0.26,<12.1.3.1 needed by pytorch-cuda-12.1-ha16c6d3_5
- 
-- nothing provides cuda-cudart >=11.8,<12.0 needed by pytorch-cuda-11.8-h7e8668a_3
+```txt
+- pytorch=2.2.2
+- pytorch-cuda=12.1
+```
+> `pytorch 2.2.2 requires pytorch-cuda >=11.8,<11.9
 
-- blas 2.16**  is installable with the potential options
 
-- libuuid 2.38.1**  is requested and can be installed;
-
-- llvm-openmp 15.0.7**  is requested and can be installed;
-
-- mkl 2020.2**  is requested and can be installed;
-
-- numpy 1.23.5**  is installable with the potential options
-
-- python 3.9.19**  is not installable because it conflicts with any installable versions previously reported;
-
-- python_abi 3.9**  is installable with the potential options
-
-- pytorch-cuda 12.1**  is not installable because it requires
-
-- pytorch 2.2.2**  is installable with the potential options
 
 <details>
   <summary>error message</summary>
