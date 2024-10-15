@@ -6,7 +6,7 @@
 - pytorch=2.2.2
 - pytorch-cuda=12.1
 ```
-> `pytorch 2.2.2 requires pytorch-cuda >=11.8,<11.9
+> pytorch 2.2.2 requires pytorch-cuda >=11.8,<11.9
 
 
 
