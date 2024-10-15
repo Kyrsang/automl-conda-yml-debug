@@ -8,7 +8,13 @@
 ```
 > pytorch 2.2.2 requires pytorch-cuda >=11.8,<11.9
 
-
+```txt
+- numpy=1.23.5
+...
+- liblapack=3.8.0
+- liblapacke=3.8.0
+```
+> numpy 1.23.5 requires liblapack >=3.9.0,<4.0a0
 
 <details>
   <summary>error message</summary>
